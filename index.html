@@ -1067,7 +1067,7 @@ window.addEventListener('scroll',()=>{
     });ticking=true;}
 },{passive:true});
 
-// === COUNTDOWN (07 Sep 2026 reception 6AM) ===
+// === COUNTDOWN (07 Sep 2026 WEDDING 6AM) ===
 function tick(){
     const diff=new Date('2026-09-07T06:00:00')-new Date();
     if(diff<=0){['cd-days','cd-hours','cd-mins','cd-secs','cd-ms'].forEach(id=>{const el=document.getElementById(id);if(el)el.textContent='00'});return}
